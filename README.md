@@ -1,2 +1,7 @@
+[Portada Repositorio](./cover-html.webp)
+
+
 # HTML
-Aqui van los codigos de HTML que aprendemos en la clase de Programacion Web I
+
+
+**HTML (Hyper Text Markup Language)** No es un lenguaje de programación. Es un lenguaje de marcado que usa

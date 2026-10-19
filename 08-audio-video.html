@@ -1,0 +1,43 @@
+<!--
+
+Audio y Video
+
+Estas etiquetas nos permiten insertar contenido multimedia.
+
+<audio>...</audio>
+<video>...</video>
+
+Parámetros
+
+- controls 👉 muestra los controles de las etiquetas
+- autoplay 👉 reproduce el contenido de manera automática
+- loop 👉 reproduce el contenido de manera infinita
+- muted 👉 reproduce el contenido sin sonido
+
+elemento <source>
+
+Dentro de las etiquetas <audio> y <video> podemos utilizar la etiqueta <source /> y a esta etiqueta le pasamos el parametro src que recibe4 como valor la ubicación del contenido.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Audio y Video </title>
+</head>
+<body>
+    <h1> Audio y Video </h1>
+    
+    <h2> Contenido de Audio </h2>
+<audio controls autoplay muted >
+    <source src="multimedia/TIMEOVER.mp3" />
+</audio>
+
+    <h2> Contenido de Video </h2>
+    <video controls auto play muted loop width="1024" height="auto">
+    <source src="multimedia/Gods.mp4" />
+    </video>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!--
+
+Formularios
+
+Son elementos que permiten a los usuarios enviar datos a un servidor web.
+
+Para el contenedor de un formulario se utiliza la etiqueta:
+
+<form>...</form>
+
+Dentro de este elemento se colocan los campos (fields) y etiquertas (labels) que permiten al usuario ingresar información.
+
+<input /> es un campo de información. Son elementos de autocierre (`selfclosing`) y hay de diferentes tipos: texto, boton, checkbox, etc...
+
+<label>...</label> estas etiquetaws se asocian a un input.
+
+Parametros
+
+Para label:
+for 👉 se utiliza para asociar la etiqueta a un input.
+
+
+Para input:
+type 👉 define el tipo de input que se va a utilizar.
+name 👉 define el nombre con el que se relaciona el label.
+placeholder 👉 define un texto que funciona como pista o "hint" para el usuario
+id 👉 define un identificador único para el input. Este id se relaciona con el for del label.
+<textarea>...</textarea> es un campo de texto más grandes o para textos largos.
+<select>...</select> es un campo de selección que permite al usuario elegir entre varias opciones.
+<option>...</option> es una opción dentro de un select.
+<button>...</button> es un botón que permite enviar el formulario o realizar alguna acción.
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formularios </title>
+</head>
+<body>
+    <h1> Formularios </h1>
+
+</form>
+    <label for="SonicWolf">Nombre:</label>
+    <input type="text" name="SonicWolf" placeholder="Juan Manuel" id="SonicWolf" />
+    <textarea name="" id=""></textarea>
+    <select name="" id="">
+        <option value="">Opción 1</option>
+        <option value="">Opción 2</option>
+        <option value="">Opción 3</option>
+    </select>
+    <button>Enviar</button>
+
+</form>
+
+</body>
+</html>
